@@ -1,1 +1,1 @@
-This is everything you need to know about me!
+A simple website to demonstrate my web development skills. Hosted on Github currently. 
