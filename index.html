@@ -1,257 +1,323 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portfolio</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-        (function() {
-            emailjs.init("user_7UwVbVVgSdZkRLcxTLsUm");
-        })();
+      (function () {
+        emailjs.init("user_7UwVbVVgSdZkRLcxTLsUm");
+      })();
     </script>
-</head>
+    <style></style>
+  </head>
 
-<body>
+  <body>
     <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+      <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
     <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+      <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <ul id="menu" class="shadow">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </header>
     <!-- End header -->
 
     <div id="lead">
-        <div id="lead-content">
-            <h1>Arren Ting</h1>
-            <h2>Software Engineer</h2>
-            <a download href="/files/Arren Ting Resume.pdf" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
+      <div id="lead-content">
+        <img
+          id="profilePic"
+          style="height: 400px; margin-bottom: 30px"
+          src="images/about.jpg"
+        />
+        <h1 id="introText" style="font-size: 30px; margin-bottom: 30px">
+          Hello World!
+        </h1>
+        <a
+          download
+          href="/files/Arren Ting Resume.pdf"
+          class="btn-rounded-white"
+          >Download Resume</a
+        >
+      </div>
+      <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
+      <div id="lead-overlay"></div>
 
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
+      <div id="lead-down">
+        <span>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
+      </div>
+      <!-- End #lead-down -->
     </div>
     <!-- End #lead -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Hi, my name is Arren Ting. Im a software developer in Canada. I specialize in web application programming, data analytics and full stack development. Stay awhile and browse through my profile.
-                    </p>
-                </div>
-            </div>
+    <div id="about" style="padding: 70px">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading" style="font-size: xx-large"><b>About Me</b></h2>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <b
+                >Hi, my name is Arren Ting. Im a software/web developer based in
+                Canada. I specialize in web application programming, data
+                analytics and full stack development. I am also proficient in
+                hardware design and programming. Stay a while and browse through
+                my profile!</b
+              >
+            </p>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="May 2021 - Current">
-                <h3>NAIT, Edmonton AB</h3>
-                <h4>Data Science Student</h4>
-                <ul>
-                    <li>Created interactive PowerBi reports using collected data samples from lab experiments or field research</li>
-                    <li>Prepared data sets and assist field team members in the development of research reports </li>
-                    <li>Created software training documents and videos for field team members </li>
-                </ul>
-            </div>
-
-            <div data-date="Aug 2020 - Current">
-                <h3>Fuzion Donuts, Edmonton AB</h3>
-                <h4>Freelance Software Developer</h4>
-                <ul>
-                    <li>Utilized full stack application such as ASP.NET and SQL along with other web technologies to deploy website </li>
-                    <li>Designed, developed, and deployed the inventory management solution</li>
-                    <li>Liaison with owner to ensure that inventory management solution meets all business requirements</li>
-                </ul>
-            </div>
-
-            <div data-date="Jul 2018 - Aug 2019">
-                <h3>Westcorp, Edmonton AB</h3>
-                <h4>Accounts Payable & Vendor Specialist, Edmonton AB</h4>
-                <ul>
-                    <li>Performed weekly cheque payment and authentication process for 250+ vendor payments</li>
-                    <li>Performed month end accrual closing for Accounts Payable ledger </li>
-                    <li>Created training materials and trained accounting staff on new AP module with Yardi Online</li>
-                </ul>
-            </div>
-
-            <div data-date="Oct 2016 - Mar 2018">
-                <h3>Stantec, Edmonton AB</h3>
-                <h4>Fixed Asset Technician</h4>
-                <ul>
-                    <li>Reconciled fixed asset general ledger to ensure proper capitalization policies are followed</li>
-                    <li>Performed month end closing of the fixed asset general ledger, including depreciation and amortization</li>
-                    <li>Used Excel Macros to manage and reconcile outstanding utility payments to ensure good standing with the vendors </li>
-                </ul>
-            </div>
+      <h2 class="heading"><b>Experience</b></h2>
+      <div id="experience-timeline">
+        <div data-date="May 2021 - Current">
+          <h3><b>Applied BIO/NanoTechnology Industrial Research Chair (NAIT), Edmonton AB</b></h3>
+          <h4>Data Science Student</h4>
+          <ul>
+            <li>
+              Created interactive 3D PowerBi reports using collected data samples
+              from lab experiments or field research using Semantic and Rhino 7
+            </li>
+            <li>
+              Prepared data sets and assist field team members in the
+              development of research reports
+            </li>
+            <li>
+              Created software training documents and videos for field team
+              members
+            </li>
+          </ul>
         </div>
+
+        <div data-date="Aug 2020 - Current">
+          <h3><b>Fuzion Donuts, Edmonton AB</b></h3>
+          <h4>Freelance Software Developer</h4>
+          <ul>
+            <li>
+              Utilized full stack application such as ASP.NET and SQL along with
+              other web technologies to deploy website on Azure
+            </li>
+            <li>
+                Coded and maintained the code base for the web application and performing CI/CD tasks 
+            </li>
+            <li>
+              Liaison with owner to ensure that inventory management solution
+              meets all business requirements using AGILE principles
+            </li>
+          </ul>
+        </div>
+
+        <div data-date="Jul 2018 - Aug 2019">
+          <h3><b>Westcorp, Edmonton AB</b></h3>
+          <h4>Accounts Payable & Vendor Specialist, Edmonton AB</h4>
+          <ul>
+            <li>
+              Performed weekly cheque payment and authentication process for
+              250+ vendor payments
+            </li>
+            <li>
+              Performed month end accrual closing for Accounts Payable ledger
+            </li>
+            <li>
+              Created training materials and trained accounting staff on new AP
+              module with Yardi Online
+            </li>
+          </ul>
+        </div>
+
+        <div data-date="Oct 2016 - Mar 2018">
+          <h3><b>Stantec, Edmonton AB</b></h3>
+          <h4>Fixed Asset Technician</h4>
+          <ul>
+            <li>
+              Reconciled fixed asset general ledger to ensure proper
+              capitalization policies are followed
+            </li>
+            <li>
+              Performed month end closing of the fixed asset general ledger,
+              including depreciation and amortization
+            </li>
+            <li>
+              Used Excel Macros to manage and reconcile outstanding utility
+              payments to ensure good standing with the vendors
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>NAIT, Edmonton AB</h3>
-            <span class="education-date">Sep 2019 - Dec 2021</span>
-            <h4>Computer Engineering Technology Diploma</h4>
-            <p>
-                I was enrolled in a 2-year Computer Engineering Technology diploma program where graduates are trained in designing, building and programming of computers. I have also receive extensive training in hardware and software aspects of microcomputers and their
-                applications.By the end of my 2 year diploma, I was able to confidently analyze basic electrical circuits, program equipment using PLC ladder logic, create a web application as well as performing data analytics.
-            </p>
-        </div>
-        <!-- End .education-block -->
+      <h2 class="heading"><b>Education</b></h2>
+      <div class="education-block">
+        <h3>NAIT, Edmonton AB</h3>
+        <span class="education-date">Sep 2019 - Dec 2021</span>
+        <h4>Computer Engineering Technology Diploma</h4>
+        <p>
+            Enrolled in a 2-year Computer Engineering Technology diploma
+          program where graduates are trained in designing, building and
+          programming of computers. Also received extensive training in
+          hardware and software aspects of microcomputers and their
+          applications. Can analyze basic electrical circuits, program equipment using
+          PLC ladder logic, create a web application as well as performing data
+          analytics.
+        </p>
+      </div>
+      <!-- End .education-block -->
 
-        <div class="education-block">
-            <h3>University of Alberta, Edmonton AB</h3>
-            <span class="education-date">Jun 2013 - Jun 2016</span>
-            <h4>Bachelor of Commerce, Major in Accounting, Minor in Finance</h4>
-            <p>
-                I was enrolled in the Bachelor of Commerce program at the University of Alberta, pursuing my Majors in Accounting and a Minor specialization in Finance. During my time at the U of A, I was able to immerse myself in diverse range of business studies from
-                areas like common business law, to organizational practices and corporate finance.
-            </p>
-        </div>
-        <!-- End .education-block -->
+      <div class="education-block">
+        <h3>University of Alberta, Edmonton AB</h3>
+        <span class="education-date">Jun 2013 - Jun 2016</span>
+        <h4>Bachelor of Commerce, Major in Accounting, Minor in Finance</h4>
+        <p>
+            Enrolled in the Bachelor of Commerce program at the University
+          of Alberta, pursuing my Majors in Accounting and a Minor
+          specialization in Finance. Immersed in diverse range of business studies from areas like
+          common business law, to organizational practices and corporate
+          finance. 
+        </p>
+      </div>
+      <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Remote Controlled Snow Rover</h3>
-                        <p>
-                            A Snow Rover that is capable of clearing snow by receiving instructions through a website hosted on Azure. Currently the website can issue UP,DOWN,LEFT, and RIGHT movement commands as well as lifting up or dropping down the snow shovel which is attached
-                            to the front of the rover. The rover will also be equipped with a Wi-Fi camera that remits video feed back to the client website. For more details, please click the <b>"View Project"</b> link below!
-                        </p>
-                        <a href="https://github.com/Levy-Ting/Remote-Control_Snow-Clearing_Rover---Capstone" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Inventory Management System</h3>
-                        <p>
-                            A web application that is capable of storing/modify/delete inventory data which is built using ASP.NET and Entity Framwork principles. The goal of the inventory management system is to provide the user a way to manage inventory items using a web application
-                            that is designed to their specifications instead of bloating the web application with additional features that is not intended for use. Currently the project is ongoing and more features will be introduced in the near future.
-                            For privacy reasons, the website is not currently available for viewing.
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+      <h2 class="heading"><b>Projects</b></h2>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <img class="project-image" src="images/car.png" />
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Remote Controlled Snow Rover</h3>
+              <p>
+                A Snow Rover that is capable of clearing snow by receiving
+                instructions through a website hosted on Azure. Currently the
+                website can issue UP,DOWN,LEFT, and RIGHT movement commands as
+                well as lifting up or dropping down the snow shovel which is
+                attached to the front of the rover. The rover will also be
+                equipped with a Wi-Fi camera that remits video feed back to the
+                client website. For more details, please click the
+                <u><b><a
+                  href="https://github.com/Levy-Ting/Remote-Control_Snow-Clearing_Rover---Capstone"
+                  target="_blank"
+                  >here.</a></b></u>
+              </p>
             </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+
+          <div class="project shadow-large">
+            <img class="project-image" src="images/donuts.png" />
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Inventory Management System</h3>
+              <p>
+                A web application that is capable of storing/modify/delete
+                inventory data which is built using ASP.NET and Entity Framwork
+                principles. The goal of the inventory management system is to
+                provide the user a way to manage inventory items using a web
+                application that is designed to their specifications instead of
+                bloating the web application with additional features that is
+                not intended for use. Currently the project is ongoing and more
+                features will be introduced in the near future.
+              </p>
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
         </div>
+      </div>
     </div>
     <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Program in C variant languages</li>
-            <li>Data analytics in Excel and PowerBi using Python and R Script</li>
-            <li>3D Data Visualization with Rhino 7 and Semantic</li>
-            <li>Video and sound editing skills</li>
-            <li>Backend website development using ASP.NET</li>
-            <li>Front end website development using HTML,CSS and JavaScript</li>
-
-        </ul>
-    </div>
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>I would love to hear from you!</h2>
-        Click <b style="color: white;"><a href="mailto:arrenting@gmail.com" target="_blank">me</a></b> to send an email
-        <!-- End #contact-form -->
+      <h2>I would love to hear from you!</h2>
+      Click
+      <b style="color: white"
+        ><a href="mailto:arrenting@gmail.com" target="_blank">me</a></b
+      >
+      to send an email
+      <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2021 Arren Ting
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/ArrenTing" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/arrenting/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 copyright">
+            <p>Copyright &copy; 2021 Arren Ting</p>
+          </div>
+          <div class="col-sm-2 top">
+            <span id="to-top">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="col-sm-5 social">
+            <ul>
+              <li>
+                <a href="https://github.com/ArrenTing" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/arrenting/" target="_blank"
+                  ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
-</body>
-
+  </body>
 </html>
